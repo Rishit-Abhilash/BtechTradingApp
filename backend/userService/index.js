@@ -7,6 +7,7 @@ const userRoutes = require('./routes/user.route')
 app.use('/api/v1/', helloRoutes)
 app.use('/api/v1/user', userRoutes)
 
+//new
 // username, email, password, 
 // user registration --> username, email, password (user)
 // user details --> bio, name, age, gender, phoneNum, enrollmentNum, 
